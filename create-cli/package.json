@@ -1,0 +1,22 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "kkb": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clear": "0.1.0",
+    "commander": "5.1.0",
+    "download-git-repo": "3.0.2",
+    "figlet": "1.6.0",
+    "ora": "5.4.1",
+    "util": "0.12.5"
+  }
+}

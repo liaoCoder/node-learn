@@ -7,7 +7,7 @@ const path = require("path");
 const files = fs.readdirSync(`${CWD}/lib`);
 const content = files.reduce((acc, item) => {
   if (item.startsWith("Wl")) {
-    acc += `import ${item}Comp from "./${item}/index.js";export const ${item} = ${item}Comp;`;
+    acc += `export { default as ${item} } from "./${item}/index.js";`;
   }
   return acc;
 }, "");

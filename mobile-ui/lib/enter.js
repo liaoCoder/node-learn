@@ -1,1 +1,1 @@
-import WlButtonComp from "./WlButton/index.js";export const WlButton = WlButtonComp;import WlHeaderComp from "./WlHeader/index.js";export const WlHeader = WlHeaderComp;import WlInputComp from "./WlInput/index.js";export const WlInput = WlInputComp;
+export { default as WlButton } from "./WlButton/index.js";export { default as WlHeader } from "./WlHeader/index.js";export { default as WlInput } from "./WlInput/index.js";

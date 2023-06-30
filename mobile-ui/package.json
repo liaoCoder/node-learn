@@ -12,6 +12,7 @@
   },
   "author": "",
   "license": "ISC",
+  "sideEffects": false,
   "devDependencies": {
     "fs": "0.0.1-security"
   }
